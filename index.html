@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>ToDo App</title>
-</head>
-<body>
-    
-    <script src="main.js"></script>
-</body>
+  </head>
+  <body>
+    <div class="todo-app">
+      <h2>ToDo List <i class="fa-solid fa-address-book"></i></h2>
+      <div class="add-task">
+        <input type="text" placeholder="write your task" />
+        <div class="add-icon"><i class="fa-solid fa-plus"></i></div>
+      </div>
+      <div class="no-task">no tasks to show</div>
+      <div class="tasks-container"></div>
+      <div class="all-btn">
+        <div class="tasks-btn">tasks <span class="">0</span></div>
+        <div class="comopleted">comopleted <span>0</span></div>
+      </div>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
